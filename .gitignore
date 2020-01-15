@@ -1,0 +1,7 @@
+CQS1/.env
+CQS1/node_modules/
+CQS1/src/db.json
+CQS2/.env
+CQS2/node_modules/
+CQS2/src/db.json
+*.sw[op]
