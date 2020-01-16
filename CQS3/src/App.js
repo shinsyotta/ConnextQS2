@@ -101,6 +101,12 @@ channel.on("RECIEVE_TRANSFER_FINISHED_EVENT", () => {
   // const
   // this.showRecieveTransferStarted()
 });
+channel.on("TRANSFER_RECEIVED_EVENT", () => {
+  console.log("Finished receiving transfer with correct spelling");
+  // console.log(`Here is the info: ${JSON.stringify(data, null, 2)}`)
+  // const
+  // this.showRecieveTransferStarted()
+});
 
 // channel.on("RECEIVE_TRANSFER_STARTED_EVENT", () => {
 //   console.log("Started to receive transfer with correct spelling")
