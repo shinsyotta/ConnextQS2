@@ -31,8 +31,8 @@ npm run start-docker
 
 This will execute the docker image. It includes the flag `--mount=type=bind,source=`pwd`/src,target=/root/src` which mounts the `src` folder into the docker image. This means we don't need to rebuild the image every single time the source code changes (Ditto for the .env file).
 
-Address: 0xC434C9169Ad0049658CC04336Cb74e35B6Bd4448
-xPub: xpub6Ecyqc2YEBEAVTiry1zfY2YrGHDMoCuo1p9Cv2DbQtg6TRsidCovBBUJ8orY4CPTJib6uMAQPaJ33qL2JgMrKbtq1DqeQysiQ4aRLrjfjPT
+Address:
+BIP32 Extended Public Key, a.k.a. xPub: xpub6EMjYQDRmea4fdkRWhe1nhZYrdSP7BKwHFKQSS3TThzuQpWqjBTZfpssPYzxpkhvEJgoasmfiNhXW5kmWpJbZ5sz7hyvVxF1MQVM3X2ory6
 
 
 Example of state:
