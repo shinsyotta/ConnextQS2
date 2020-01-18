@@ -104,7 +104,7 @@ await channel.deposit(payload)
 // import { parseEther } from "ethers/utils";
 
 const txpayload = {
-  recipient: "xpub6Ecyqc2YEBEAVTiry1zfY2YrGHDMoCuo1p9Cv2DbQtg6TRsidCovBBUJ8orY4CPTJib6uMAQPaJ33qL2JgMrKbtq1DqeQysiQ4aRLrjfjPT",  // CQS2 receives ETH
+  recipient: "xpub6EMjYQDRmea4fdkRWhe1nhZYrdSP7BKwHFKQSS3TThzuQpWqjBTZfpssPYzxpkhvEJgoasmfiNhXW5kmWpJbZ5sz7hyvVxF1MQVM3X2ory6",  // CQS2 receives ETH
   meta: "A friendly message from CQS1 to CQS3!", // any string value, or omit
   amount: parseEther("0.1").toString(), // in wei (ethers.js methods are very convenient for getting wei amounts)
   assetId: AddressZero // ETH
