@@ -7,4 +7,5 @@ CQS2/src/db.json
 CQS3/.env
 CQS3/node_modules/
 CQS3/src/db.json
+junk/
 *.sw[op]
